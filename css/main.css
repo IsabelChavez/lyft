@@ -1,3 +1,52 @@
-/*
- * Estilos de tu proyecto
- */
+/*Estilos de tu proyecto*/
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Agregando estilos a header */
+header{
+    background: #292440;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 120px;
+    padding: 3% 160px 3% 100px;
+    line-height: 60px;
+}
+
+header img{
+    display: inline;
+    width: 5%;
+}
+
+nav{
+    float: right;  
+}
+
+header nav ul li{
+    display: inline;
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+    padding: 20px;
+}
+
+#button{
+    border-radius: 10px;
+    padding: 10px 18px 10px 18px;
+    background: #292440;
+    border-style: 0.5px solid white;
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+/* Agregando estilos a la primera seccion */
+
+.one-section{
+    background-image: url('../assets/images/hero.gif');
+    width: 400%;
+}
